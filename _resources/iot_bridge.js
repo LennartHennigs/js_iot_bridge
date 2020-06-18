@@ -9,7 +9,9 @@
 
 var ws;
 // Chrome doesn't allow unsecure websocket (ws) connections to localhost / 127.0.0.1
-var SERVER = 'ws://192.168.42.1:1880';
+// to allow , open: chrome://flags/#allow-insecure-localhost
+
+var SERVER = 'ws://localhost:1880';
 var DEBUG = false;
 
 // ---------------------------------------------------
